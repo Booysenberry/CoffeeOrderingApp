@@ -14,7 +14,7 @@ Open Terminal
 
 Run `git clone https://github.com/Booysenberry/CoffeeOrderingApp.git`
 
-Open `coffeeorderingapp.xcodeproj`
+Open `CoffeeOrderingApp.xcodeproj`
 
 Build and run
 
