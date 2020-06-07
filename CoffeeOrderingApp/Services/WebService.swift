@@ -12,12 +12,12 @@ class WebService {
     
     func createCoffeeOrder(order: Order, completion: @escaping (CreateOrderResponse?) -> ()) {
         
-        //Create url
+        // create url
         guard let url = URL(string: "https://island-bramble.glitch.me/orders") else {
             fatalError("Invalid URL")
         }
         
-        // Setup POST request
+        // setup POST request
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-type")
@@ -39,7 +39,6 @@ class WebService {
                 completion(createOrderResponse)
             }
         }.resume()
-        
     }
     
     func getAllOrders(completion: @escaping ([Order]?) -> ()) {
