@@ -19,6 +19,7 @@
 		4B9E3F8C247EEE7E005507DA /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9E3F8B247EEE7E005507DA /* WebService.swift */; };
 		B267A48E2485837C009DC14A /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267A48D2485837C009DC14A /* OrderListViewModel.swift */; };
 		B267A4992486D4EB009DC14A /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267A4982486D4EB009DC14A /* OrderListView.swift */; };
+		B2C7F61C248D6D19003B0B6C /* CreateOrderResponse .swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C7F61B248D6D19003B0B6C /* CreateOrderResponse .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		4B9E3F8B247EEE7E005507DA /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		B267A48D2485837C009DC14A /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		B267A4982486D4EB009DC14A /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		B2C7F61B248D6D19003B0B6C /* CreateOrderResponse .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateOrderResponse .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4B5C2BE7247D9A9100C96A03 /* Order.swift */,
 				4B5C2BE9247D9B1700C96A03 /* Coffee.swift */,
+				B2C7F61B248D6D19003B0B6C /* CreateOrderResponse .swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				4B5C2BD5247D9A6900C96A03 /* CoffeeOrderingApp.xcdatamodeld in Sources */,
 				4B5C2BD0247D9A6900C96A03 /* AppDelegate.swift in Sources */,
+				B2C7F61C248D6D19003B0B6C /* CreateOrderResponse .swift in Sources */,
 				B267A4992486D4EB009DC14A /* OrderListView.swift in Sources */,
 				4B9E3F8C247EEE7E005507DA /* WebService.swift in Sources */,
 				4B5C2BE8247D9A9100C96A03 /* Order.swift in Sources */,
