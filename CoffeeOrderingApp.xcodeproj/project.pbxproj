@@ -23,6 +23,7 @@
 		B2C7F61E248D71FE003B0B6C /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C7F61D248D71FE003B0B6C /* AddCoffeeOrderViewModel.swift */; };
 		B2C7F620248D72CD003B0B6C /* CoffeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C7F61F248D72CD003B0B6C /* CoffeeListViewModel.swift */; };
 		B2C7F622248D735F003B0B6C /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C7F621248D735F003B0B6C /* CoffeeViewModel.swift */; };
+		B2C7F624248EBAE5003B0B6C /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C7F623248EBAE5003B0B6C /* AddCoffeeOrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		B2C7F61D248D71FE003B0B6C /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		B2C7F61F248D72CD003B0B6C /* CoffeeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeListViewModel.swift; sourceTree = "<group>"; };
 		B2C7F621248D735F003B0B6C /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		B2C7F623248EBAE5003B0B6C /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			children = (
 				4B5C2BD6247D9A6900C96A03 /* ContentView.swift */,
 				B267A4982486D4EB009DC14A /* OrderListView.swift */,
+				B2C7F623248EBAE5003B0B6C /* AddCoffeeOrderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				4B5C2BD5247D9A6900C96A03 /* CoffeeOrderingApp.xcdatamodeld in Sources */,
 				B2C7F620248D72CD003B0B6C /* CoffeeListViewModel.swift in Sources */,
 				4B5C2BD0247D9A6900C96A03 /* AppDelegate.swift in Sources */,
+				B2C7F624248EBAE5003B0B6C /* AddCoffeeOrderView.swift in Sources */,
 				B2C7F61C248D6D19003B0B6C /* CreateOrderResponse .swift in Sources */,
 				B2C7F61E248D71FE003B0B6C /* AddCoffeeOrderViewModel.swift in Sources */,
 				B267A4992486D4EB009DC14A /* OrderListView.swift in Sources */,
